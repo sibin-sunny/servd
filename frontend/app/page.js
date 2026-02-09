@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  return <div><Button variant="destructive">Sibin</Button></div>
+  return <div className="min-h-screen bg-stone-50 text-stone-900">
+    <section className="pt-32 pb-30 px-4">sibin</section>
+  </div>
  
 }
