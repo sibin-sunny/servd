@@ -20,6 +20,7 @@ export default function RecipeGrid({
       const formattedValue = value.charAt(0).toUpperCase() + value.slice(1);
       fetchMeals(formattedValue);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value]);
 
   const meals = data?.meals || [];

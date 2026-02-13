@@ -18,7 +18,7 @@
     "quantity": {
       "type": "string"
     },
-    "imgUrl": {
+    "imageUrl": {
       "type": "string"
     },
     "owner": {

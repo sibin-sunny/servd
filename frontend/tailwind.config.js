@@ -9,6 +9,5 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'), // fixes aspect-square
-    require('tw-animate-css'),            // keeps your animations
   ],
 };
