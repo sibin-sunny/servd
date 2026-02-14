@@ -550,7 +550,7 @@ export interface ApiRecipeRecipe extends Struct.CollectionTypeSchema {
       ]
     >;
     description: Schema.Attribute.Blocks;
-    imgUrl: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
     ingredients: Schema.Attribute.JSON & Schema.Attribute.Required;
     instructions: Schema.Attribute.JSON & Schema.Attribute.Required;
     isPublic: Schema.Attribute.Boolean &
@@ -570,7 +570,7 @@ export interface ApiRecipeRecipe extends Struct.CollectionTypeSchema {
       'api::saved-recipe.saved-recipe'
     >;
     servings: Schema.Attribute.Integer;
-    substitution: Schema.Attribute.JSON;
+    substitutions: Schema.Attribute.JSON;
     tips: Schema.Attribute.JSON;
     title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;

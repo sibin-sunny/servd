@@ -63,7 +63,7 @@
       "type": "json",
       "required": true
     },
-    "imgUrl": {
+    "imageUrl": {
       "type": "string"
     },
     "isPublic": {
@@ -92,7 +92,7 @@
     "tips": {
       "type": "json"
     },
-    "substitution": {
+    "substitutions": {
       "type": "json"
     },
     "saved_recipes": {
